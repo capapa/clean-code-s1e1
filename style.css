@@ -41,10 +41,10 @@
 	padding: 0px;
 }
 .todo-list__item {
-	list-style:none;
+	list-style: none;
 }
 input,button{
-	outline:none;
+	outline: none;
 }
 button {
 	background: none;

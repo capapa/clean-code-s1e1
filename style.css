@@ -58,7 +58,9 @@ button {
   outline: none;
 }
 
-button {
+.todo-list__add-btn,
+.todo-list__edit-btn,
+.todo-list__delete-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +70,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.todo-list__add-btn:hover,
+.todo-list__edit-btn:hover,
+.todo-list__delete-btn:hover {
   color: #3a3a3a;
 }
 
@@ -83,7 +87,8 @@ button:hover {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.todo-list__input-add,
+.todo-list__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +101,8 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.todo-list__input-add:focus,
+.todo-list__input:focus {
   color: #333;
 }
 
@@ -125,39 +131,39 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.todo-list__item > input[type="checkbox"] {
+.todo-list__cb {
   margin: 0 10px;
 }
 
-.todo-list__item > label {
+.todo-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.todo-list__item > input[type="text"] {
+.todo-list__input {
   width: 226px;
 }
 
-.todo-list__delete-btn img {
+.todo-list__remove {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.todo-list__delete-btn img:hover {
+.todo-list__remove:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.todo-list__complete-tasks label {
+.todo-list__complete-tasks .todo-list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.todo-list__input {
   display: none;
 }
 

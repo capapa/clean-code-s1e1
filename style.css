@@ -33,7 +33,8 @@
 }
 
 .todo-list__label,
-.todo-list__input {
+.todo-list__input,
+.todo-list__input-add {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -41,6 +42,7 @@
 
 .todo-list__add {
   display: flex;
+  margin: 20px 0 0;
 }
 
 .todo-list__incomplete-tasks,
@@ -109,7 +111,6 @@ button {
 /* New Task */
 .todo-list__caption {
   display: block;
-  margin: 0 0 20px;
 }
 
 .todo-list__input-add {
